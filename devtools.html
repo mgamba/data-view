@@ -1,0 +1,34 @@
+<html>
+<head>
+<style type="text/css">
+  thead {
+    font-weight: bold;
+    background-color: #0E80CC;
+    color: white;
+  }
+  thead:hover { cursor: pointer }
+  tr:nth-child(even) {
+    background-color: #E8F6FF;
+    color: black;
+  }
+</style>
+</head>
+<body>
+<h1>Data View</h1>
+<script src="devtools.js"></script>
+<form class="param-form">
+  row: <input id="row-selector" value=".row-selector" type="text" placeholder="type a dom selector" style="width: 200px; padding: 0 0 0 4px; height: 1.8em;">
+  <br/>
+  columns: <input id="column-selector" value=".column,.selectors" type="text" placeholder="type a dom selector" style="width: 200px; padding: 0 0 0 4px; height: 1.8em;">
+  <br/>
+  <a href="#" style="padding: 0 10px; line-height: 1.8em;" id="search-button">
+    search
+  </a>
+</form>
+<div id="result"></div>
+<table id="result-table">
+  <thead></thead>
+  <tbody></tbody>
+</table>
+</body>
+</html>

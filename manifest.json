@@ -1,0 +1,7 @@
+{
+  "name": "Data View",
+  "version": "1.1",
+  "description": "Extends the Developer Tools, adding a sidebar that displays data associated with selected DOM element patterns.",
+  "devtools_page": "devtools.html",
+  "manifest_version": 2
+}
